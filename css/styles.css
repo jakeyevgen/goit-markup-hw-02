@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #404BBF;
+}
+
 .list {
     list-style: none;
 }
@@ -6,6 +10,11 @@
     text-decoration: none;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ============= Header section ============= */
 .logo-color {
     font-family: 'Raleway',
         sans-serif;
@@ -35,7 +44,6 @@
 }
 
 .menu-link {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -45,11 +53,10 @@
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
 .header-email {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -60,11 +67,10 @@
 
 .header-email:hover,
 .header-email:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
 .header-tel {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -75,11 +81,13 @@
 
 .header-tel:hover,
 .header-tel:focus {
-    color: #404BBF;
+    color: var(--accent-color);
 }
 
+/* ============= /Header section ============= */
+
+/* ============= Hero section ============= */
 .hero-title {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -90,7 +98,6 @@
 }
 
 .modal-btn {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -114,15 +121,18 @@
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background: #404BBF;
+    background: var(--accent-color);
 }
 
+/* ============= /Hero section ============= */
+
+
+/* ============= Advantage section ============= */
 .advantages-main-title {
     display: none
 }
 
 .advantages-titles {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -131,7 +141,6 @@
 }
 
 .advantages-title-descr {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -139,8 +148,10 @@
     color: #434455;
 }
 
+/* ============= /Advantage section ============= */
+
+/* ============= Doing section ============= */
 .doing-title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -150,8 +161,10 @@
     color: #2E2F42;
 }
 
+/* ============= /Doing section ============= */
+
+/* ============= Team section ============= */
 .team-main-title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -162,7 +175,6 @@
 }
 
 .team-title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -171,7 +183,6 @@
 }
 
 .team-title-descr {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -179,8 +190,10 @@
     color: #434455;
 }
 
+/* ============= /Team section ============= */
+
+/* ============= Footer ============= */
 .footer-text {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -188,3 +201,5 @@
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
+
+/* ============= /Footer ============= */
