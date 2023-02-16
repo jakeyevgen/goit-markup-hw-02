@@ -87,6 +87,10 @@ body {
 /* ============= /Header section ============= */
 
 /* ============= Hero section ============= */
+.hero {
+    background: #2E2F42;
+}
+
 .hero-title {
     font-style: normal;
     font-weight: 700;
@@ -94,7 +98,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .modal-btn {
@@ -164,6 +168,11 @@ body {
 /* ============= /Doing section ============= */
 
 /* ============= Team section ============= */
+
+.team {
+    background: #F4F4FD;
+}
+
 .team-main-title {
     font-weight: 700;
     font-size: 36px;
@@ -193,6 +202,11 @@ body {
 /* ============= /Team section ============= */
 
 /* ============= Footer ============= */
+
+.footer-color {
+    background: #2E2F42;
+}
+
 .footer-text {
     font-style: normal;
     font-weight: 400;

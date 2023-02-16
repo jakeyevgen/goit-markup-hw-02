@@ -90,6 +90,190 @@ body {
 /* ============= /Header section ============= */
 
 /* ============= Filter section ============= */
-.button-all {}
 
-/* ============= Filter section ============= */
+.filter {
+    display: none;
+}
+
+.button-all {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
+    background: Var(--btn-bg-color);
+}
+
+.all-font {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--btn-font-color);
+}
+
+.button-all:hover,
+.all-font:focus {
+    background: Var(--btn-accent-bg-color);
+    color: var(--btn-accent-font-color);
+}
+
+.button-website {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
+    background: Var(--btn-bg-color);
+}
+
+.website-font {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--btn-font-color);
+}
+
+.button-website:hover,
+.website-font:focus {
+    background: Var(--btn-accent-bg-color);
+    color: var(--btn-accent-font-color);
+}
+
+.button-app {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
+    background: Var(--btn-bg-color);
+}
+
+.app-font {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--btn-font-color);
+}
+
+.button-app:hover,
+.app-font:focus {
+    background: Var(--btn-accent-bg-color);
+    color: var(--btn-accent-font-color);
+}
+
+.button-design {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
+    background: Var(--btn-bg-color);
+}
+
+.design-font {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--btn-font-color);
+}
+
+.button-design:hover,
+.design-font:focus {
+    background: Var(--btn-accent-bg-color);
+    color: var(--btn-accent-font-color);
+}
+
+.button-marketing {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    width: 69px;
+    height: 48px;
+    background: Var(--btn-bg-color);
+}
+
+.marketing-font {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--btn-font-color);
+}
+
+.button-marketing:hover,
+.marketing-font:focus {
+    background: Var(--btn-accent-bg-color);
+    color: var(--btn-accent-font-color);
+}
+
+
+
+/* ============= /Filter section ============= */
+
+/* ============= Cash section ============= */
+.cash {
+    display: none;
+}
+
+.secondary-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.explanation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ============= /Cash section ============= */
+
+/* ============= Service section ============= */
+.service {
+    display: none;
+}
+
+/* ============= /Service section ============= */
+
+/* ============= Concept section ============= */
+.concept {
+    display: none;
+}
+
+/* ============= /Concept section ============= */
+
+/* ============= Footer ============= */
+.footer-color {
+    background: #2E2F42;
+}
+
+/* ============= /Footer ============= */
