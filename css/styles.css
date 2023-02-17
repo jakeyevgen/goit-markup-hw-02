@@ -96,8 +96,6 @@ body {
 }
 
 .hero-title {
-    font-style: normal;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -106,7 +104,6 @@ body {
 }
 
 .modal-btn {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -130,6 +127,10 @@ body {
 .modal-btn:hover,
 .modal-btn:focus {
     background: var(--accent-color);
+}
+
+button {
+    font-family: inherit;
 }
 
 /* ============= /Hero section ============= */
@@ -218,6 +219,10 @@ body {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+
+.logo-color-footer {
+    color: var(--btn-bg-color);
 }
 
 /* ============= /Footer ============= */
