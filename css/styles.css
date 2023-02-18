@@ -4,6 +4,20 @@
     --btn-font-color: #4D5AE5;
     --btn-accent-bg-color: #404BBF;
     --btn-accent-font-color: #FFFFFF;
+    --logo-studio-color: #4D5AE5;
+    --logo-web-color: #2E2F42;
+    --logo-web-footer-color: #F4F4FD;
+    --menu-link-color: #2E2F42;
+    --header-links-color: #434455;
+    --hero-title-color: #FFFFFF;
+    --hero-color: #2E2F42;
+    --modal-btn-color: #FFFFFF;
+    --footer-color: #2E2F42;
+    --footer-font-color: #E7E9FC;
+    --doing-team-font-color: #2E2F42;
+    --team-back-color: #F4F4FD;
+    --team-advan-title-color: #2E2F42;
+    --team-advan-descr-color: #434455;
 }
 
 .list {
@@ -16,35 +30,35 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-/* ============= Header section ============= */
-.logo-color {
-    font-family: 'Raleway',
-        sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-
-.logo-link {
-    font-family: 'Raleway',
-        sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    background: #FFFFFF;
     color: #2E2F42;
+}
+
+/* ===== Header for index and portfolio section ============= */
+.logo-studio,
+.logo-web,
+.logo-web-footer {
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-studio {
+    color: var(--logo-studio-color);
+}
+
+.logo-web {
+    color: var(--logo-web-color);
+}
+
+.logo-web-footer {
+    color: var(--logo-web-footer-color);
 }
 
 .menu-link {
@@ -52,7 +66,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--menu-link-color);
 }
 
 .menu-link:hover,
@@ -60,39 +74,29 @@ body {
     color: var(--accent-color);
 }
 
-.header-email {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-email:hover,
-.header-email:focus {
-    color: var(--accent-color);
-}
-
+.header-email,
 .header-tel {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--header-links-color);
 }
 
+.header-email:hover,
+.header-email:focus,
 .header-tel:hover,
 .header-tel:focus {
     color: var(--accent-color);
 }
 
+
 /* ============= /Header section ============= */
 
 /* ============= Hero section ============= */
 .hero {
-    background: #2E2F42;
+    background: var(--hero-color);
 }
 
 .hero-title {
@@ -100,7 +104,7 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--hero-title-color);
 }
 
 .modal-btn {
@@ -110,7 +114,7 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--modal-btn-color);
 }
 
 .modal-btn {
@@ -131,6 +135,7 @@ body {
 
 button {
     font-family: inherit;
+    cursor: pointer;
 }
 
 /* ============= /Hero section ============= */
@@ -146,7 +151,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--team-advan-title-color);
 }
 
 .advantages-title-descr {
@@ -154,7 +159,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--team-advan-descr-color);
 }
 
 /* ============= /Advantage section ============= */
@@ -167,15 +172,13 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--doing-team-font-color);
 }
-
-/* ============= /Doing section ============= */
 
 /* ============= Team section ============= */
 
 .team {
-    background: #F4F4FD;
+    background: var(--team-back-color);
 }
 
 .team-main-title {
@@ -185,7 +188,7 @@ button {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--doing-team-font-color);
 }
 
 .team-title {
@@ -193,7 +196,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--team-advan-title-color);
 }
 
 .team-title-descr {
@@ -201,106 +204,30 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--team-advan-descr-color);
 }
 
 /* ============= /Team section ============= */
 
 /* ============= Footer ============= */
 
-.footer-color {
-    background: #2E2F42;
-}
-
 .footer-text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--footer-font-color);
 }
 
-.logo-color-footer {
-    color: var(--btn-bg-color);
+.footer-color {
+    background: var(--footer-color);
 }
 
 /* ============= /Footer ============= */
 
 
 /* ==============  PORTFOLIO ======== */
-
-/* ============= Header section ============= */
-.logo-color {
-    font-family: 'Raleway',
-        sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-
-.logo-link {
-    font-family: 'Raleway',
-        sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
-}
-
-.menu-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-    color: var(--accent-color);
-}
-
-.header-email {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-email:hover,
-.header-email:focus {
-    color: var(--accent-color);
-}
-
-.header-tel {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-tel:hover,
-.header-tel:focus {
-    color: var(--accent-color);
-}
-
-/* ============= /Header section ============= */
 
 /* ============= Filter section ============= */
 
@@ -339,17 +266,13 @@ button {
 
 /* ============= /Filter section ============= */
 
-/* ============= Cash section ============= */
-.cash {
-    display: none;
-}
-
+/* ============= Portfolio section ============= */
 .secondary-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--team-advan-title-color);
 }
 
 .explanation {
@@ -357,28 +280,5 @@ button {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--team-advan-descr-color);
 }
-
-/* ============= /Cash section ============= */
-
-/* ============= Service section ============= */
-.service {
-    display: none;
-}
-
-/* ============= /Service section ============= */
-
-/* ============= Concept section ============= */
-.concept {
-    display: none;
-}
-
-/* ============= /Concept section ============= */
-
-/* ============= Footer ============= */
-.footer-color {
-    background: #2E2F42;
-}
-
-/* ============= /Footer ============= */
